@@ -1,0 +1,24 @@
+.main-container {
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+
+    .table-container {
+        width: 100%;
+        min-height: 500px;
+        box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+        border: solid 1px #000;
+        border-radius: 6px;
+        margin-top: 5rem;
+
+        .table-result-container {
+            td {
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+            th {
+                text-align: center;
+            }
+        }
+    }
+}

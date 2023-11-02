@@ -1,0 +1,19 @@
+.main-container {
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+.main-container .table-container {
+  width: 100%;
+  min-height: 500px;
+  box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+  border: solid 1px #000;
+  border-radius: 6px;
+  margin-top: 5rem;
+}
+.main-container .table-container .table-result-container td {
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-container .table-container .table-result-container th {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
