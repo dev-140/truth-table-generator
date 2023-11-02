@@ -45,3 +45,7 @@ document.getElementById('generate-table').addEventListener('click', function () 
         alert('No variables found in the expression.')
     }
 })
+
+document.getElementById('clear').addEventListener('click', function () {
+    document.getElementById('expression').value = ""
+})
