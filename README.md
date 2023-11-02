@@ -6,3 +6,7 @@ You can check my source code above!
 
 Just click this
 [LINK!](https://dev-140.github.io/truth-table-generator/)
+
+## Author
+
+-   [Rox Marzan](https://github.com/dev-140)
