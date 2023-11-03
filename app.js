@@ -6,11 +6,8 @@ function evaluateExpression(expression, variables) {
 }
 
 function sanitizeExpression(inputExpression) {
-    // Replace "AND" with "&&"
     inputExpression = inputExpression.replace(/\bAND\b/g, '&&')
-    // Replace "OR" with "||"
     inputExpression = inputExpression.replace(/\bOR\b/g, '||')
-    // Replace "NOT" with "!"
     inputExpression = inputExpression.replace(/\bNOT\b/g, '!')
     return inputExpression
 }
@@ -47,5 +44,5 @@ document.getElementById('generate-table').addEventListener('click', function () 
 })
 
 document.getElementById('clear').addEventListener('click', function () {
-    document.getElementById('expression').value = ""
+    document.getElementById('expression').value = ''
 })
